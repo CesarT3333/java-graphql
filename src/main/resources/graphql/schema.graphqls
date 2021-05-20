@@ -1,0 +1,18 @@
+type Person {
+    id: ID,
+    name: String,
+    age: Int
+}
+
+input PersonInput {
+    name: String
+    age: Int
+}
+
+type Query {
+    findAllPerson: [Person]
+}
+
+type Mutation {
+
+}
